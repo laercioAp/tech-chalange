@@ -97,10 +97,10 @@ O script exibirá gráficos, métricas de avaliação e previsões para novos pl
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
-Rafael Jordão Jardim
-Lorrane Aparecida Pedroso
-Laercio Aparecido Pedroso
-Jessica Santana do Santos
-Elcio Jesus Conceição
+- Rafael Jordão Jardim  
+- Lorrane Aparecida Pedroso  
+- Laércio Aparecido Pedroso  
+- Jéssica Santana dos Santos  
+- Élcio Jesus Conceição
