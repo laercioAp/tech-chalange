@@ -99,4 +99,8 @@ O script exibirá gráficos, métricas de avaliação e previsões para novos pl
 
 ## 👨‍💻 Autor
 
-Desenvolvido como parte de um **Tech Challenge** de Machine Learning.
+Rafael Jordão Jardim
+Lorrane Aparecida Pedroso
+Laercio Aparecido Pedroso
+Jessica Santana do Santos
+Elcio Jesus Conceição
