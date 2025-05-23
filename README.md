@@ -1,33 +1,102 @@
-Tech Challenge - Insurance Charges Prediction
-Este projeto utiliza aprendizado de máquina para prever o custo de planos de seguro de saúde com base em dados demográficos e de saúde dos clientes.
 
-Descrição
-O script tech_challenge.py realiza as seguintes etapas:
+# Tech Challenge - Previsão de Custos de Seguro Saúde
 
-Carrega e explora o dataset insurance.csv
-Visualiza relações entre variáveis (idade, IMC, filhos) e o valor do seguro
-Pré-processa os dados usando codificação one-hot e padronização
-Divide os dados em conjuntos de treino e teste, estratificando por faixa etária
-Treina modelos de regressão linear e Random Forest para prever o valor do seguro
-Avalia os modelos usando R² e RMSE
-Realiza previsões para novos clientes
-Requisitos
-Python 3.x
-pandas
-matplotlib
-seaborn
-scikit-learn
-numpy
+Este projeto utiliza técnicas de Ciência de Dados e Machine Learning para **prever o valor de planos de seguro saúde** com base em dados demográficos e de saúde dos clientes.
+
+---
+
+## 📋 Descrição
+
+O script `tech_challenge.py` executa um pipeline completo de análise e modelagem preditiva, incluindo:
+
+- Carregamento e exploração do dataset `insurance.csv`
+- Visualização de relações entre variáveis (idade, IMC, filhos) e o valor do seguro
+- Pré-processamento dos dados com codificação *one-hot* e padronização
+- Divisão dos dados em treino e teste, estratificando por faixa etária
+- Treinamento de modelos de **Regressão Linear** e **Random Forest**
+- Avaliação dos modelos com métricas **R²** e **RMSE**
+- Previsão do valor do seguro para novos clientes
+
+---
+
+## 📦 Requisitos
+
+- Python 3.x  
+- pandas  
+- matplotlib  
+- seaborn  
+- scikit-learn  
+- numpy  
+
 Instale as dependências com:
 
-Como usar
-Certifique-se de que o arquivo insurance.csv está no mesmo diretório do script.
-Execute o script:
-O script exibirá gráficos, métricas de avaliação e previsões para novos planos.
-Estrutura
-tech_challenge.py: Script principal com todo o pipeline de análise e modelagem.
-Observações
-O script inclui visualizações para análise exploratória e avaliação dos resíduos dos modelos.
-O pipeline de pré-processamento garante que os dados estejam prontos para os modelos de machine learning.
-O modelo Random Forest é utilizado para estimar o preço de novos planos de seguro.
-Desenvolvido para fins de aprendizado e demonstração de técnicas de ciência de dados e machine learning.
+```bash
+pip install -r requirements.txt
+```
+
+> Crie um `requirements.txt` com os pacotes usados, se desejar facilitar a instalação.
+
+---
+
+## 🚀 Como usar
+
+1. Certifique-se de que o arquivo `insurance.csv` está no mesmo diretório do script.
+2. Execute o script com:
+
+```bash
+python tech_challenge.py
+```
+
+O script exibirá gráficos, métricas de avaliação e previsões para novos planos de seguro.
+
+---
+
+## 🔍 Etapas do Projeto
+
+1. **Exploração de Dados**  
+   Visualização de dispersão entre idade, IMC, filhos e o valor do seguro.
+
+2. **Pré-processamento**  
+   Codificação de variáveis categóricas (*One-Hot Encoding*) e padronização de variáveis numéricas.
+
+3. **Divisão dos Dados**  
+   Separação em treino e teste, estratificando por faixa etária.
+
+4. **Modelagem**  
+   Treinamento de modelos de **Regressão Linear** e **Random Forest**.
+
+5. **Avaliação**  
+   Cálculo de métricas como **R²** e **RMSE**, além de análise de resíduos.
+
+6. **Previsão**  
+   Estimativa do valor do seguro para novos perfis de clientes.
+
+---
+
+## 📈 Resultados
+
+- O script imprime as métricas de avaliação dos modelos (**R²** e **RMSE**).
+- Exibe gráficos de dispersão, matriz de correlação e previsões.
+- Realiza previsões para novos clientes, exibindo o valor estimado do plano.
+
+---
+
+## 📁 Estrutura dos Arquivos
+
+- `tech_challenge.py` – Script principal com todo o pipeline de análise e modelagem.
+- `insurance.csv` – Base de dados utilizada (não incluída neste repositório).
+
+---
+
+## 📝 Observações
+
+- O pipeline de pré-processamento garante que os dados estejam prontos para os modelos de machine learning.
+- O modelo **Random Forest** é utilizado para estimar o preço de novos planos de seguro.
+- O projeto pode ser expandido com ajuste de hiperparâmetros e validação cruzada.
+- Desenvolvido para fins de aprendizado e demonstração de técnicas de Ciência de Dados e Machine Learning.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido como parte de um **Tech Challenge** de Machine Learning.
