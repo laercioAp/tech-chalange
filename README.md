@@ -100,7 +100,7 @@ O script exibirá gráficos, métricas de avaliação e previsões para novos pl
 ## 👨‍💻 Autores
 
 - Élcio Jesus Conceição
+- Jéssica Santana dos Santos  
 - Laércio Aparecido Pedroso  
 - Lorrane Aparecida Pedroso
-- Jéssica Santana dos Santos  
 - Rafael Jordão Jardim
