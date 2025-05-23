@@ -99,8 +99,8 @@ O script exibirá gráficos, métricas de avaliação e previsões para novos pl
 
 ## 👨‍💻 Autores
 
-- Rafael Jordão Jardim  
-- Lorrane Aparecida Pedroso  
-- Laércio Aparecido Pedroso  
-- Jéssica Santana dos Santos  
 - Élcio Jesus Conceição
+- Laércio Aparecido Pedroso  
+- Lorrane Aparecida Pedroso
+- Jéssica Santana dos Santos  
+- Rafael Jordão Jardim
